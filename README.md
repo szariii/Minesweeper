@@ -14,7 +14,7 @@
     <li>Write commands:
     <ol type="a" >
       <li><code>git init</code></li>
-      <li><code>git pull https://github.com/szariii/Dratewka_the_shoemaker.git</code></li>
+      <li><code>git pull https://github.com/szariii/Minesweeper.git</code></li>
     </ol>
   </li>
   <li>Open index.html</li>
