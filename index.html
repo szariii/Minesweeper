@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Minesweeper</title>
+    <style>
+      body {
+        margin-top: 60px;
+        text-align: center;
+      }
+
+      .pole {
+        border: solid 1px;
+        width: 16px;
+        height: 16px;
+        float: left;
+      }
+
+      #width {
+        margin-left: 9px;
+      }
+
+      #height {
+        margin-left: 4px;
+      }
+
+      #cmp {
+        display: inline-block;
+        margin-bottom: 20px;
+      }
+
+      .nieklik {
+        background-image: url(./img/klepa.PNG);
+      }
+
+      .koniec {
+        clear: both;
+      }
+
+      .flaga {
+        background-image: url(./img/flaga.PNG);
+      }
+
+      .pytajnik {
+        background-image: url(./img/pyt.png);
+      }
+
+      .bomba {
+        background-image: url(./img/pbomb.PNG);
+      }
+
+      .wybuch {
+        background-image: url(./img/bomb.PNG);
+      }
+
+      #ranking {
+        width: auto;
+        height: auto;
+        background-color: gray;
+      }
+
+      #ranksy {
+        color: blue;
+        margin-bottom: 0;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Minesweeper:</h1>
+    <label>Width:<input type="number" id="width" /></label><br />
+    <label>Height:<input type="number" id="height" /></label><br />
+    <label>Bombs:<input type="number" id="bomb" /></label><br />
+    <button id="start" onclick="ustawienia.tablica()">Start Game</button>
+    <p id="ilosc"></p>
+    <p id="czasomierz"></p>
+    <div id="cmp"></div>
+    <div id="ranking"></div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
