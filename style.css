@@ -1,0 +1,59 @@
+body {
+    margin-top: 60px;
+    text-align: center;
+  }
+
+  .pole {
+    border: solid 1px;
+    width: 16px;
+    height: 16px;
+    float: left;
+  }
+
+  #width {
+    margin-left: 9px;
+  }
+
+  #height {
+    margin-left: 4px;
+  }
+
+  #cmp {
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+
+  .nieklik {
+    background-image: url(./img/klepa.PNG);
+  }
+
+  .koniec {
+    clear: both;
+  }
+
+  .flaga {
+    background-image: url(./img/flaga.PNG);
+  }
+
+  .pytajnik {
+    background-image: url(./img/pyt.png);
+  }
+
+  .bomba {
+    background-image: url(./img/pbomb.PNG);
+  }
+
+  .wybuch {
+    background-image: url(./img/bomb.PNG);
+  }
+
+  #ranking {
+    width: auto;
+    height: auto;
+    background-color: gray;
+  }
+
+  #ranksy {
+    color: blue;
+    margin-bottom: 0;
+  }
