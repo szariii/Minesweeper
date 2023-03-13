@@ -19,3 +19,8 @@
   </li>
   <li>Open index.html</li>
 </ol>
+
+<h2>Screenshots:</h2>
+<img src="./img/img1.PNG" alt="img1">
+<img src="./img/img2.PNG" alt="img2">
+<img src="./img/img3.PNG" alt="img3">
